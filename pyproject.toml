@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ranked retrieval"
+version = "0.1.0"
+description = "Ranked Retrieval engine made for DB2"
+authors = ["Enrique <enrique.flores@utec.edu.pe>"]
+license = "GNU"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11, <3.13"
+numpy = "^1.26.0"
+
+
+[tool.poetry.group.dev.dependencies]
+poethepoet = "^0.24.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
